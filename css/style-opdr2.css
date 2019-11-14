@@ -1,3 +1,51 @@
 html, body{
     height: 100%;
 }
+
+body {
+    display: flex;
+}
+
+aside{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+
+}
+
+main{
+width: 80%;
+height: 100%;
+background-color: orange;
+
+}
+
+.menu-button{
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    margin: 30px;
+    align-content: center;
+}
+
+.flex-container{
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    background-color: fuchsia;
+    margin: 30px;
+    margin-bottom: 60px;
+    }
+
+
+.foto {
+    padding: 10px;
+    justify-content: left;
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
